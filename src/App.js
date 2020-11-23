@@ -1,5 +1,6 @@
 import React from 'react';
+import {hstack} from './hstack';
 
-let App = () => <div>Hello World!</div>;
+let App = (props) => <hstack><div>Hello World</div><div>This is a test!</div></hstack>;
 
 export default App;

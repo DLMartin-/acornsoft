@@ -1,5 +1,3 @@
 import React from 'react';
 
-const hstack = () => <div style={{backgroundColor: "blue", display: "flex"}}>12345</div>;
-
-export {hstack};
+export const HStack = props => <div style={{display: "flex"}}>{props.children}</div>;

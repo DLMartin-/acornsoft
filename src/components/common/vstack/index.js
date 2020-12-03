@@ -1,1 +1,1 @@
-export {VStack} from './vstack';
+export {VStack} from './vstack.jsx';

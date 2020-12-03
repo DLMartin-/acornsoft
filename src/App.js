@@ -1,22 +1,6 @@
 import React from "react";
-import { HStack } from "./components/common/hstack";
-import { VStack } from "./components/common/vstack";
+import { ContactMe } from "./components/navigation";
 
-const App = () => (
-  <HStack>
-    <VStack reverse>
-      <div>Hello</div>
-      <div>There</div>
-    </VStack>
-    <VStack>
-      <div>World</div>
-      <div>Are</div>
-    </VStack>
-    <VStack>
-      <div>!</div>
-      <div>Many</div>
-    </VStack>
-  </HStack>
-);
+const App = () => <ContactMe />;
 
 export default App;

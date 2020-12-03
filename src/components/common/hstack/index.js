@@ -1,1 +1,1 @@
-export { HStack } from "./hstack";
+export { HStack } from "./hstack.jsx";
